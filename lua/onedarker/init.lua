@@ -8,9 +8,9 @@ function M.setup()
   end
   vim.o.background = "dark"
   vim.o.termguicolors = true
-  vim.g.colors_name = "onedarker"
+  vim.g.colors_name = "neodarker"
   highlights.setup()
-  vim.cmd [[colorscheme onedarker]]
+  vim.cmd [[colorscheme neodarker]]
 end
 
 return M
