@@ -1,4 +1,4 @@
-local C = require "onedarker.palette"
+local C = require "neodarker.palette"
 
 local Whichkey = {
   WhichKey = { fg = C.purple },

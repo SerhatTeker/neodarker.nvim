@@ -1,4 +1,4 @@
-local C = require "onedarker.palette"
+local C = require "neodarker.palette"
 
 local Notify = {
   NotifyERRORBorder = { fg = C.error_red },

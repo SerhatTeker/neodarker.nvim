@@ -1,7 +1,7 @@
 local M = {}
 
 function M.setup()
-  local highlights = require "onedarker.highlights"
+  local highlights = require "neodarker.highlights"
   vim.cmd "hi clear"
   if vim.fn.exists "syntax_on" then
     vim.cmd "syntax reset"

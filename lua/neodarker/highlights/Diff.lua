@@ -1,4 +1,4 @@
-local C = require "onedarker.palette"
+local C = require "neodarker.palette"
 
 local Diff = {
   DiffAdd = { fg = C.none, bg = C.sign_add },
