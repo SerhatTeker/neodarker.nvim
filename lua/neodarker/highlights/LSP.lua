@@ -119,6 +119,10 @@ local LSP = {
   debugBreakpoint = { fg = C.red, style = "reverse" },
   FocusedSymbol = { fg = C.purple, style = "bold" },
   SymbolsOutlineConnector = { fg = C.context },
+  -- Bufferline
+  BufferLineIndicatorSelected = { fg = C.blue },
+  BufferLineIndicatorVisible =  { fg = C.blue },
+  BufferLineTabSelected = { fg = C.blue, bg = C.bg },
 }
 
 return LSP
