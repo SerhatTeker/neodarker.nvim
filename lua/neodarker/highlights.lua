@@ -24,7 +24,7 @@ local common = {
     LineNr = { fg = C.context },
     FloatBorder = { fg = C.gray, bg = C.alt_bg },
     Whitespace = { fg = C.gray },
-    VertSplit = { fg = C.bg, bg = C.fg },
+    VertSplit = { fg = C.bg, bg = C.dark_gray }, -- alt: context
     CursorLine = { bg = C.dark },
     CursorColumn = { bg = C.dark },
     ColorColumn = { bg = C.dark },
