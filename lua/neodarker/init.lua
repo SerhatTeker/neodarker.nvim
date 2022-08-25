@@ -1,5 +1,5 @@
 local M = {}
-local theme = require('onedarker.theme')
+local theme = require('neodarker.theme')
 
 M.setup = function()
   vim.cmd('hi clear')
@@ -10,7 +10,7 @@ M.setup = function()
   end
 
   vim.o.termguicolors = true
-  vim.g.colors_name = 'onedarker'
+  vim.g.colors_name = 'neodarker'
 
   theme.set_highlights()
 end
