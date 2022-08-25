@@ -230,6 +230,12 @@ theme.set_highlights = function()
     hl(0, "markdownFootnoteDefinition", { fg = c.orange, bg = "NONE" })
     hl(0, "markdownEscape", { fg = c.yellow, bg = "NONE" })
 
+    -- Python
+    hl(0, "pythonTSConstBuiltin", { fg = c.orange })
+    hl(0, "pythonTSFuncBuiltin", { fg = c.cyan })
+    hl(0, "pythonTSField", { fg = c.red }) -- attr
+    hl(0, "pythonTSVariableBuiltin", { fg = c.yellow }) -- self
+    hl(0, "pythonTSType", { fg = c.yellow }) -- class
 
     -- Whichkey
     hl(0, "WhichKey", { fg = c.purple, bg = "NONE" })
