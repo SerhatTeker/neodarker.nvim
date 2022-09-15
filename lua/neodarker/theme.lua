@@ -382,6 +382,10 @@ theme.set_highlights = function()
     hl(0, "BufferInactiveSign", { fg = c.gray, bg = c.alt_bg })
     hl(0, "BufferInactiveTarget", { fg = c.red, bg = c.alt_bg, bold = true })
 
+    -- BufferLine
+    hl(0, "BufferLineIndicatorSelected", { fg = c.blue, bg = c.alt_bg, bold = true })
+    hl(0, "BufferLineTabSelected", { fg = c.fg, bg = c.alt_bg, bold = true })
+
     -- StatusLine
     hl(0, "StatusLine", { fg = c.context, bg = c.bg })
     hl(0, "StatusLineNC", { fg = c.line, bg = c.bg })
