@@ -1,4 +1,4 @@
-local c = require "neodarker.palette"
+flocal c = require "neodarker.palette"
 
 local hl = vim.api.nvim_set_hl
 local theme = {}
