@@ -592,8 +592,8 @@ theme.set_highlights = function()
     hl(0, "packerStatusSuccess", { fg = c.ui4_blue, bg = "NONE" })
 
     -- SymbolOutline
-    hl(0, "SymbolsOutlineConnector", { fg = c.gray, bg = "NONE" })
-    hl(0, "FocusedSymbol", { fg = "NONE", bg = "#36383F" })
+    -- hl(0, "SymbolsOutlineConnector", { fg = c.gray, bg = "NONE" })
+    -- hl(0, "FocusedSymbol", { fg = "NONE", bg = "#36383F" })
 
     -- Notify
     hl(0, "NotifyERRORBorder", { fg = "#8A1F1F", bg = "NONE" })
