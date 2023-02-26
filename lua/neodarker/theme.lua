@@ -627,9 +627,9 @@ theme.set_highlights = function()
     hl(0, "CratesNvimVersion", { fg = c.hint, bg = "NONE" })
 
     -- Illuminate
-    hl(0, "IlluminatedWordText", { link = "Bold" })
-    hl(0, "IlluminatedWordRead", { link = "Bold" })
-    hl(0, "IlluminatedWordWrite", { link = "Bold" })
+    hl(0, "IlluminatedWordText", { fg = "NONE", bg = c.ui2_blue })
+    hl(0, "IlluminatedWordRead", { fg = "NONE", bg = c.ui2_blue })
+    hl(0, "IlluminatedWordWrite", { fg = "NONE", bg = c.ui2_blue })
 
     -- Misc
     hl(0, "diffAdded", { fg = c.sign_add, bg = "NONE" })
