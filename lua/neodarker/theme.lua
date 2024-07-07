@@ -45,7 +45,7 @@ theme.set_highlights = function()
     hl(0, "PmenuSel", { fg = "NONE", bg = c.ui_blue })
     hl(0, "WildMenu", { fg = c.fg, bg = c.ui2_blue })
     hl(0, "CursorLineNr", { fg = c.light_gray, bg = "NONE", bold = true })
-    hl(0, "Folded", { fg = c.gray, bg = c.alt_bg })
+    hl(0, "Folded", { fg = "NONE", bg = c.line })  -- link CursorLine
     hl(0, "FoldColumn", { fg = c.gray, bg = c.alt_bg })
     hl(0, "LineNr", { fg = c.gray, bg = "NONE" })
     hl(0, "FloatBoder", { fg = c.gray, bg = c.alt_bg })
